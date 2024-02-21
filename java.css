@@ -1,0 +1,35 @@
+.form{
+    margin-top: 100px;
+}
+
+.input-all{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-all input{
+    border-radius: 5px;
+    border: 2px solid rgb(184, 212, 184);
+    padding: 5px;
+}
+
+.input-all input:focus{
+    outline: 0;
+}
+
+.input-all .error{
+    color: red;
+}
+
+.input-all.success input{
+    border-color: green;
+}
+
+.input-all.error input{
+    border-color: red;
+}
+
+.input-all.resetSuccess input{
+    border-color: rgb(119, 115, 115);
+}

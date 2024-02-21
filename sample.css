@@ -1,0 +1,12 @@
+
+.form-validation{
+    margin-top: 100px;
+}
+
+.input-group.success input{
+    border-color: blue;
+}
+
+.input-group.error input{
+    border-color: blueviolet;
+}
